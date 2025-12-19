@@ -1,0 +1,16 @@
+{
+  "name": "chacara-boa-sorte",
+  "version": "1.0.0",
+  "description": "Sistema de gerenciamento de contas de energia para chácaras",
+  "main": "api/residents.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "mongoose": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
